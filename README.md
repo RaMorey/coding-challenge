@@ -8,3 +8,6 @@
     2. Using `nvm`: Run `nvm install` to install the node version and `nvm use` to use it
 1. Install the dependencies with `npm install`
 1. Run `npm start` to start the frontend and the api server
+
+
+See Comments file for comments!
