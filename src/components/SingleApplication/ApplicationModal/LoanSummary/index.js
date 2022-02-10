@@ -2,7 +2,7 @@ import moment from 'moment';
 import PropTypes from 'prop-types';
 import React from "react";
 import SummaryCell from "./SummaryCell";
-import { renderCurrency } from "../../../helpers";
+import { renderCurrency } from "../../../../helpers";
 import styles from './LoanSummary.module.css';
 
 const LoanSummary = ({ application }) => {

@@ -1,7 +1,7 @@
 import moment from 'moment';
 import PropTypes from 'prop-types';
 import React from "react";
-import { renderCurrency } from '../../../helpers';
+import { renderCurrency } from '../../../../helpers';
 import styles from './LoanHistory.module.css';
 
 const LoanHistory = ({ loanHistory }) => {

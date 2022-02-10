@@ -4,7 +4,7 @@ import { React, useState, useEffect } from "react";
 import LoanHistory from "./LoanHistory";
 import LoanSummary from './LoanSummary';
 import Profile from './Profile';
-import { getApplication } from "../../api";
+import { getApplication } from "../../../api";
 import { Modal } from '../../ui/Modal';
 import Spinner from '../../ui/Spinner';
 import styles from "./ApplicationModal.module.css";

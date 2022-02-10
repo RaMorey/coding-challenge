@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import SingleApplication from "../SingleApplication";
-import { getApplications } from "../api";
+import { getApplications } from "../../api";
 import styles from "./Applications.module.css";
 import Button from "../ui/Button/Button";
 import Spinner from '../ui/Spinner';

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { React, useState } from "react";
 import ApplicationCell from "./ApplicationCell";
 import ApplicationModal from './ApplicationModal';
-import { renderCurrency } from "../helpers";
+import { renderCurrency } from "../../helpers";
 import { Clickable } from '../ui/Clickable';
 import styles from "./SingleApplication.module.css";
 
