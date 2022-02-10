@@ -1,0 +1,44 @@
+.spinner {
+  position: relative;
+  width: 100%;
+  min-height: 48px;
+}
+
+.spinner-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.spinner-inner > div {
+  background-color: #7FC3E7;
+  border-radius: 100%;
+  display: inline-block;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  animation-fill-mode: both;
+}
+
+.spinner-inner > .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner-inner > .bounce2 {
+  animation-delay: -0.16s;
+}
+
+.spinner-inner > .bounce1, .bounce2, .bounce3 {
+  width: 16px;
+  height: 16px;
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+}

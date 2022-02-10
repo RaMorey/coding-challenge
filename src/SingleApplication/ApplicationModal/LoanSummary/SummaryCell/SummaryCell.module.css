@@ -1,0 +1,30 @@
+.cell-small {
+  color: var(--color-white-0);
+  text-align: left;
+  font-weight: bold;
+}
+
+.cell-small sub {
+  display: block;
+  font-size: 0.8rem;
+  color: #999;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.cell-large {
+  font-size: 20px;
+  color: var(--color-white-0);
+  text-align: left;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.cell-large sub {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: auto;
+  color: #999;
+  margin-bottom: 5px;
+  font-weight: normal;
+}

@@ -1,0 +1,58 @@
+{
+    "name": "frontend-interview",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "FE-start": "react-scripts start",
+        "FE-build": "react-scripts build",
+        "test": "react-scripts test",
+        "BE-start": "node ./json-server/index.js",
+        "start": "concurrently --kill-others \"npm:BE-start\" \"npm:FE-start\""
+    },
+    "jest": {
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
+        ]
+    },
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "classnames": "^2.3.1",
+        "faker": "^5.5.3",
+        "json-server": "^0.17.0",
+        "moment": "^2.29.1",
+        "prop-types": "^15.8.1",
+        "query-string": "^7.1.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-hook-form": "^7.20.2",
+        "react-modal": "^3.14.4",
+        "react-scripts": "4.0.3",
+        "web-vitals": "^1.1.2"
+    },
+    "devDependencies": {
+        "concurrently": "^6.4.0",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.6",
+        "enzyme-to-json": "^3.6.2"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

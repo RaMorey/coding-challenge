@@ -1,0 +1,9 @@
+.loan-summary {
+  flex: 1 1 0px;
+  padding: 12px;
+}
+
+.small-cells {
+  display: flex;
+  justify-content: space-between;
+}

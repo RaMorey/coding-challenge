@@ -1,0 +1,26 @@
+.profile {
+  flex: 1 1 0px;
+  display: flex;
+  padding: 12px;
+  font-size: 16px;
+  border-right: 1px solid #eee;
+}
+
+.profile > img {
+  background: #53565a no-repeat 50%/cover;
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.profile-metadata > div:first-child {
+  margin-bottom: 12px;
+}

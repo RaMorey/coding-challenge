@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Applications should render correctly 1`] = `
+<Fragment>
+  <div
+    className="Applications"
+  />
+  <div
+    className="load-more"
+  >
+    <Button
+      buttonType="primary"
+      onClick={[Function]}
+    >
+      Load More
+    </Button>
+  </div>
+</Fragment>
+`;

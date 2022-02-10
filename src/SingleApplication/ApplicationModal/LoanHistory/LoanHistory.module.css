@@ -1,0 +1,31 @@
+.loan-history { 
+  padding: 0px 20px;
+}
+
+.loan-history table, caption, tbody, tfoot, thead, tr, th, td {
+  font-weight: bold;
+  padding: 0;
+  background: transparent;
+  border-spacing: 0px;
+}
+
+.loan-history > h2 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.loan-history > table {
+  width: 100%;
+}
+
+.loan-history th, td {
+  text-align: left;
+}
+
+.loan-history tr {
+  height: 60px;
+}
+
+.loan-history tbody {
+  background-color: var(--color-white-95);
+}
